@@ -33,3 +33,9 @@ moment.utc.fluent.isDinner(); //returns true between 18:00 & 20:00 o'clock
 moment.utc.fluent.isEvening(); //returns true between 19:00 & 22:00 o'clock
 moment.utc.fluent.isNight(); //returns true between 22:00 & 06:00 o'clock
 ```
+
+TODO
+--------
+
+- Support for a given moment / time object
+- Add more functions
