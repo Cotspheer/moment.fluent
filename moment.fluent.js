@@ -58,8 +58,8 @@
 	    }
 
 	    this.isMorning = function () {
-	        var min = _self.baseTime.hours(9).minutes(0).seconds(0).milliseconds(0);
-	        var max = _self.baseTime.hours(12).minutes(0).seconds(0).milliseconds(0);
+	        var min = _self.getBaseTime.hours(9).minutes(0).seconds(0).milliseconds(0);
+	        var max = _self.getBaseTime.hours(12).minutes(0).seconds(0).milliseconds(0);
 
 	        return _self.compare(min, max);
 	    }
