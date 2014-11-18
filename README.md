@@ -1,7 +1,7 @@
 moment.fluent
 =============
 
-Simple Fluent Time API for [Moment.js][moment]
+Simple Fluent Time API for Moment.js
 
 Examples
 --------
